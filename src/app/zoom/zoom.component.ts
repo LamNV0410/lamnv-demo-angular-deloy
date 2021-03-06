@@ -3,7 +3,7 @@ import { ZoomMtg } from '@zoomus/websdk';
 
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareJssdk();
-ZoomMtg.setZoomJSLib('https://source.zoom.us/1.7.10/lib', '/av');
+ZoomMtg.setZoomJSLib('https://source.zoom.us/1.9.0/lib', '/av');
 @Component({
   selector: 'app-zoom',
   templateUrl: './zoom.component.html',
